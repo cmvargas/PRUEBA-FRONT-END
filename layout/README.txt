@@ -35,10 +35,3 @@ con el objetivo de descargarlo.
 Además el repositorio debe contar con el fichero readme en donde se especifique las características del proyecto (que se uso, que se realizó, entre otros)
 
 
-PARTE DEL DESARROLLADOR
-
-- Fue un trabajo arduo realizarlo. 
-- Se utilizo css puramente, no se modifico el archivo html. 
-- Pueden encontrar que se utilizo flex, grid , contenido generado.
-- Utilice media queries para las resoluciones y ajustar algunos elementos
-- la ultima parte en el footer, la verdad no supe como desarrollarlo, asi que quedo inconcluso.
