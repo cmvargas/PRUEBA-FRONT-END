@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+body header {
+    display: grid;
+    grid-template-columns: 0.5fr;
+    max-width: 70%;
+    max-height: 90%;
+
+    
+    
+}
+
+body header h1{
+    color: transparent;
+}
+
+body header nav ul{
+    list-style:none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    
+}
+
+body header nav{
+    transform: translate(580px,90px);
+}
+
+body header nav ul li a{
+    text-decoration:none;
+    /*color: #5c5956;*/
+    font-size: 12px;
+}
+
+body header nav ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+body header nav ul li:nth-child(4){
+    text-align: right;
+}
+body header nav ul li:nth-child(1) a{
+    color:  #5c5956;
+}
+body header nav ul li:nth-child(2) a{
+    color:  #5c5956;
+}
+body header nav ul li:nth-child(3) a{
+    color:  #5c5956;
+}
+body header nav ul li:nth-child(4) a{
+    color: white !important;
+}
+
+body header nav ul li:nth-child(5){
+    text-align: right;
+    border: 0.5px solid  white;
+    text-align: center;
+    margin-right: 3px;
+    margin-left: 3px;
+    background-color: white;
+
+}
+
+body header nav ul li:nth-child(5) a{
+    color: #1e6246 ;
+}
+
+
+
+main header::after{
+    content: url("./images/bg-1.png") ;
+    transform: scale(0.4) translate(-75%, -75%);
+    height: 50%;
+    width: 50%;
+    z-index: -10000;
+    
+}
+main header {
+    display: flex;
+    margin: 0 auto;
+    max-width: 90%;
+    max-height: 90%;
+
+    /*margin: 0 auto;*/
+    border-top-right-radius: 15px;
+}
+
+em:after{
+    content: url('./images/arrow.png');
+    position: absolute;
+    transform: scale(0.5);
+}
+
+.wrapper:before{
+    content: url('./images/logo.png');
+    position: absolute;
+    transform: scale(0.3) ;
+}
+main header .wrapper{
+    height: 640px;
+    width: 30%;
+    background-color: #1e6246;
+    border-top-left-radius: 15px;
+    font-size: 30px;
+}
+
+.wrapper h1{
+    color:  #eebece;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.wrapper p{
+    font-size: 15px;
+    color: #eebece;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+}
+.wrapper h1 em{
+    -webkit-text-stroke: 0.01px #eebece;
+    color: transparent;
+}
+
+
+
+section {
+    transform: translate(0px,-990px);
+    margin: 0 auto;
+    max-width: 70%;
+    max-height: 70%;
+}
+
+section ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    list-style:none;
+    margin-top: 150px;
+    gap: 20px;
+}
+
+section h1{
+    text-align:center;
+}
+
+section strong{
+    display: block;
+}
+
+#features ul li h2,p{
+
+    text-align: center;
+}
+
+#features ul li h2{
+    font-size: 20px;
+}
+#achievements ul li {
+    text-align: center;   
+}
+
+#achievements ul li strong{
+    font-size: 20px;
+}
+#features h1{
+    display:none;
+}
+
+
+.budgets::before{
+    content: url("./images/icon-budgets.png") ;
+    position: absolute;
+    transform: scale(0.5) translate(170px, -200px);  
+    align-items: center;
+}
+
+.bills::before{
+    content: url("./images/icon-bills.png") ;
+    position: absolute;
+    transform: scale(0.5) translate(170px, -200px);  
+    align-items: center;
+}
+
+.credit::before{
+    content: url("./images/icon-credit.png") ;
+    position: absolute;
+    transform: scale(0.5) translate(170px, -200px);  
+    align-items: center;
+}
+
+
+.assets::before{
+    content: url("./images/icon-assets.png") ;
+    position: absolute;
+    transform: scale(0.5) translate(-150px, -300px);  
+    align-items: center;
+}
+
+.investments::before{
+    content: url("./images/icon-investments.png") ;
+    position: absolute;
+    transform: scale(0.5) translate(-150px, -300px);  
+    align-items: center;
+}
+
+.users::before{
+    content: url("./images/icon-users.png") ;
+    position: absolute;
+    transform: scale(0.5) translate(-150px, -300px);  
+    align-items: center;
+}
+
+
+
+
+
+@media (min-width: 1701px) and (max-width: 2000px) {
+
+    /*modificado*/
+    body header nav{
+        transform: translate(880px,90px);
+    }
+
+        /*modificado*/
+        main header {
+            display: flex;
+            margin-left:20%; 
+            max-width: 90%;
+            max-height: 90%;
+        
+            /*margin: 0 auto;*/
+            border-top-right-radius: 15px;
+        }
+    
+    }
+
+    @media (min-width: 1000px) and (max-width: 1200px) {
+        .budgets::before{
+            content: url("./images/icon-budgets.png") ;
+            position: absolute;
+            transform: scale(0.5) translate(30px, -200px);  
+            align-items: center;
+        }
+        
+        .bills::before{
+            content: url("./images/icon-bills.png") ;
+            position: absolute;
+            transform: scale(0.5) translate(30px, -200px);  
+            align-items: center;
+        }
+        
+        .credit::before{
+            content: url("./images/icon-credit.png") ;
+            position: absolute;
+            transform: scale(0.5) translate(30px, -200px);  
+            align-items: center;
+        }
+
+        .wrapper p{
+            font-size: 12px;
+            color: #eebece;
+            padding-left: 100px;
+            padding-right: 100px;
+            text-align: justify;
+        }
+
+        em:after{
+            content: url('./images/arrow.png');
+            position: absolute;
+            transform: scale(0.3);
+        }
+    }
+
+
+
+
+    @media (min-width: 1300px) and (max-width: 1700px) {
+    body header nav{
+        transform: translate(630px,90px);
+    }
+
+        /*modificado*/
+        main header {
+            display: flex;
+            margin-left:10%; 
+            max-width: 90%;
+            max-height: 90%;
+        
+            /*margin: 0 auto;*/
+            border-top-right-radius: 15px;
+        }
+}
+    

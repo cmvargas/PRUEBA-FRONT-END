@@ -1,0 +1,44 @@
+Prueba de diagramación
+----------------------
+
+Para ésta prueba, deberás crear una hoja de estilos basada en el archivo HTML
+de éste directorio, para que sea lo más fiel al diseño en:
+
+https://dribbble.com/shots/6336349-Score-Product-Page/attachments/1356829
+
+Ésta prueba ya tiene una solución, de la cual estimamos una dificultad media,
+y un tiempo de resolución de 3 a 6 horas.
+
+Condiciones:
+
+- NO se puede alterar el HTML.
+- Las imágenes a usar están en /theme/images, en resolución 2x.
+- No estamos evaluando diagramación pixel perfect, sólo debe verse bien
+  proporcionado, con la debida cantidad de espacios en blancos (padding/margin),
+  sin romperse entre 1000px y 1920px de ancho.
+- Usar fuentes de fonts.google.com lo más parecidas posible.
+- Sólo estaremos revisando en Chrome para Windows.
+- Aplicar responsive a conveniencia.
+- Estaremos evaluando:
+	- Uso de algunos de estos selectores CSS (:nth-child(), [attr="val"], >, etc).
+	- Uso de unidades (px, vw/vh, em, etc).
+	- Usos interesantes de posicionamiento, Flex, Grid, contenido generado (::before, ::after), reemplazo de texto (font-size: 0 + background)y background-size.
+- Hay puntos extra por:
+	- Hover en el menú principal
+	- Animaciones CSS de entrada.
+	- Uso de LESS/SASS (Incluir hoja de estilos fuente en la respuesta).
+
+
+- Deberás subir tu diseño a un repositorio en Github, dicho repositorio deberá ser de tu propiedad y en caso de ser privado deberá proporcionar acceso 
+con el objetivo de descargarlo. 
+
+Además el repositorio debe contar con el fichero readme en donde se especifique las características del proyecto (que se uso, que se realizó, entre otros)
+
+
+PARTE DEL DESARROLLADOR
+
+- Fue un trabajo arduo realizarlo. 
+- Se utilizo css puramente, no se modifico el archivo html. 
+- Pueden encontrar que se utilizo flex, grid , contenido generado.
+- Utilice media queries para las resoluciones y ajustar algunos elementos
+- la ultima parte en el footer, la verdad no supe como desarrollarlo, asi que quedo inconcluso.
